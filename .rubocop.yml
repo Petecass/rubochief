@@ -1,0 +1,10 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  UseCache: true
+
+Metrics/LineLength:
+  Max: 120
+Metrics/MethodLength:
+  Max: 10
