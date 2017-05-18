@@ -8,3 +8,8 @@ Metrics/LineLength:
   Max: 120
 Metrics/MethodLength:
   Max: 10
+
+# No space makes the method definition shorter and differentiates
+# from a regular assignment.
+Style/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space
