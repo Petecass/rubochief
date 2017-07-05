@@ -1,0 +1,72 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  UseCache: true
+  Exclude:
+    - db/**
+
+Rails/ActionFilter:
+  Enabled: true
+Rails/Blank:
+  Enabled: true
+Rails/Delegate:
+  Enabled: true
+Rails/DelegateAllowBlank:
+  Enabled: true
+Rails/DynamicFindBy:
+  Enabled: true
+Rails/Exit:
+  Enabled: true
+Rails/FilePath:
+  Enabled: true
+Rails/FindBy:
+  Enabled: true
+Rails/FindEach:
+  Enabled: true
+Rails/HasAndBelongsToMany:
+  Enabled: true
+Rails/NotNullColumn:
+  Enabled: true
+Rails/Output:
+  Enabled: true
+Rails/OutputSafety:
+  Enabled: true
+Rails/Present:
+  Enabled: true
+Rails/ReadWriteAttribute:
+  Enabled: true
+Rails/RelativeDateConstant:
+  Enabled: true
+Rails/ReversibleMigration:
+  Enabled: true
+Rails/SaveBang:
+  Enabled: true
+Rails/ScopeArgs:
+  Enabled: true
+Rails/SkipsModelValidations:
+  Enabled: true
+Rails/UniqBeforePluck:
+  Enabled: true
+Rails/Validation:
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - test/**/**
+
+Metrics/ClassLength:
+  Exclude:
+    - test/**/**
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 10
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: no_space
