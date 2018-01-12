@@ -65,8 +65,11 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Max: 10
 
+Style/Documentation:
+  Enabled: false
+
 Style/ClassAndModuleChildren:
   Enabled: false
 
-Style/SpaceAroundEqualsInParameterDefault:
+Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
